@@ -9,13 +9,13 @@ module.exports = {
       name: 'webpackNumbers',
       type: 'umd',
     },
-    externals: {
-      lodash: {
-        root: '_',
-        amd: 'lodash',
-        commonjs: 'lodash',
-        commonjs2: 'lodash',
-      },
+  },
+  externals: {
+    lodash: {
+      root: '_',
+      amd: 'lodash',
+      commonjs: 'lodash',
+      commonjs2: 'lodash',
     },
   },
 };
