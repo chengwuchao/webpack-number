@@ -1,11 +1,15 @@
 {
-  "name": "webpack-number",
+  "name": "webpack-number-test",
   "version": "1.0.1",
   "description": "",
   "main": "dist/webpack-numbers.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chengwuchao/webpack-number.git"
   },
   "author": "",
   "license": "ISC",
