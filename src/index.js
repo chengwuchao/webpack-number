@@ -5,7 +5,7 @@ export function numToWord(num) {
   return _.reduce(
     numRef,
     (accum, ref) => {
-      return ref.num === num ? ref.word : accm;
+      return ref.num === num ? ref.word : accum;
     },
     ''
   );
